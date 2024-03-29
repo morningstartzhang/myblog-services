@@ -23,4 +23,6 @@ public class UserController {
     public Result<List<User>> getAllUser(){
         return iUserService.getAllUser();
     }
+
+
 }
